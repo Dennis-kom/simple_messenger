@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3429ab97-a246-4308-a050-6ea2129ad305" name="Changes" comment="Reformat for javafx application template">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/ServerTread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/SimpleMessanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/SimpleMessangerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messanger_application/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messanger_application/hello-view.fxml" afterDir="false" />
+    <list default="true" id="3429ab97-a246-4308-a050-6ea2129ad305" name="Changes" comment="full application">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/SimpleMessanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messanger_application/SimpleMessanger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="9159" />
+    <option name="totalTimeSeconds" value="10803" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,22 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713118318656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="full application">
+      <option name="closed" value="true" />
+      <created>1713288509259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713288509259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformat for javafx application template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat for javafx application template" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/messanger_application/ClientThread.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="full application" />
+    <option name="LAST_COMMIT_MESSAGE" value="full application" />
   </component>
 </project>

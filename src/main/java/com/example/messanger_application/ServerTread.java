@@ -20,7 +20,7 @@ public class ServerTread extends Thread implements Protocol{
             handleReadAndWrite();
         }
         catch (Exception e){
-            System.out.println(e.getMessage());
+            System.out.println("Debug: " + e.getMessage());
         }
     }
 
@@ -29,9 +29,9 @@ public class ServerTread extends Thread implements Protocol{
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
         ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
 
-        Data data = (Data)objectInputStream.readObject();
+        String data = (String)objectInputStream.readObject();
 
-        System.out.println(data.getMessage());
+        System.out.println(data);
 
 
     }

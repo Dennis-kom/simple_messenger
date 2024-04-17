@@ -6,6 +6,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.ServerSocket;
+import java.util.ArrayList;
+import java.util.concurrent.locks.Lock;
 
 public class SimpleMessanger extends Application{
     @Override
@@ -15,6 +17,7 @@ public class SimpleMessanger extends Application{
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args)  {
